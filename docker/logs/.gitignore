@@ -1,0 +1,4 @@
+# Ignorar todos los ficheros...
+*
+# ...excepto el fichero .gitignore
+!.gitignore
