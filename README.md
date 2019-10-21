@@ -6,8 +6,10 @@
 * phpMyAdmin
 * Redis
 
-## Instalar
+## Instrucciones
 
 Clonar y  `docker-compose up -d`.
 
 Probar en `http://localhost`.
+
+Configurado un certificado autofirmado en `https://localhost`. 

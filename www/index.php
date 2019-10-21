@@ -13,7 +13,7 @@
             <li>PHP <?=phpversion()?></li>
             <li>
             <?php
-            $link = mysqli_connect("mysql", "root", "tiger", null);
+            $link = mysqli_connect("mysql", "root", "r00t", null);
 
             /* check connection */
             if (mysqli_connect_errno()) {
@@ -29,9 +29,9 @@
         </ul>
         <h2>Enlaces:</h2>
         <ul>
-            <li><a href="http://localhost/phpinfo.php">phpinfo()</a></li>
+            <li><a href="/phpinfo.php">phpinfo()</a></li>
             <li><a href="http://localhost:8080">phpMyAdmin</a></li>
-            <li><a href="http://localhost/test_db.php">Test DB Connection</a></li>
+            <li><a href="/test_db.php">Test DB Connection</a></li>
         </ul>
     </body>
 </html>
