@@ -1,4 +1,4 @@
-FROM php:7.2-apache
+FROM php:7.4-apache
 
 RUN apt-get update -y --fix-missing
 RUN apt-get upgrade -y
@@ -22,7 +22,6 @@ RUN docker-php-ext-install mysqli
 RUN docker-php-ext-install curl
 RUN docker-php-ext-install tokenizer
 RUN docker-php-ext-install json
-RUN docker-php-ext-install zip
 
 # Enable apache modules
 RUN a2enmod rewrite headers ssl
